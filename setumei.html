@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ゲーム説明 | パワーリフティング補助員ゲーム</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #252547);
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+
+    section {
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      padding: 15px;
+      margin-bottom: 20px;
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: #ffd700;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      list-style-type: "🏋️ ";
+      padding-left: 20px;
+    }
+
+    button {
+      background: #ff4d4d;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background: #ff6666;
+    }
+
+    footer {
+      margin-top: 30px;
+      opacity: 0.8;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏋️‍♂️ パワーリフティング重量補助ゲーム 説明</h1>
+
+  <section>
+    <h2>🎮 ゲーム概要</h2>
+    <p>このゲームはパワーリフティング大会での「補助員」の重量付け替えを再現した、<b>重量計算トレーニングゲーム</b>です。<br>
+    ルールを理解しながら、正確なプレート構成をすばやく判断する練習ができます。</p>
+  </section>
+
+  <section>
+    <h2>💾 記録モードの流れ</h2>
+    <ul>
+      <li>まずは重量を見て、つけるプレートを考えます。</li>
+      <li>プレートを押して正確に重量を付けます。</li>
+      <li>プレートの最後に必ず公式カラー（2.5kg）を付けてください。</li>
+      <li>合っていれば正解と表示されます。</li>
+      <li>合っていない場合はオーバーと表示されます。</li>
+      <li>カラーが付いていないと2.5を付けてくださいと表示されます。</li>
+      <li>プレートを正しく配置したら「次へ」で次の問題へ。</li>
+      <li>5回終了後、自動で集計が行われます。</li>
+      <li>閉じる場合は閉じるボタンを押してください。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📊 集計内容</h2>
+    <ul>
+      <li>正確にプレートを付けられた回数（5回中）</li>
+      <li>正解までにかかった平均時間（秒）</li>
+      <li>正解率（％）</li>
+      <li>平均スピード（反応速度）</li>
+    </ul>
+  </section>
+
+    <section>
+    <h2>💪 練習モード</h2>
+    <ul>
+      <li>OKボタンを押して目標重量を変えます。</li>
+      <li>正解・不正解の判定はその場で表示。</li>
+      <li>スコアや時間は記録されません。</li>
+      <li>カラー配置やプレート構成の感覚を練習するのに有能です。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>💡 プレート配置ルール</h2>
+    <ul>
+      <li>重量は 25kg〜300kg の範囲。</li>
+      <li>使用プレート：25 / 20 / 15 / 10 / 5 / 2.5 / 1.25 kg。</li>
+      <li>必ずプレートの最後に <b>カラー（2.5kg）</b> を付ける。</li>
+      <li>途中にカラーを複数回付けるのはNG。</li>
+      <li>カラーの後に1.25kgを置くのもNG。</li>
+    </ul>
+  </section>
+
+  <button onclick="location.href='kiroku.html'">記録に戻る</button>
+    <button onclick="location.href='hozyoin.html'">練習に戻る</button>
+
+  <footer>© 2025 パワーリフティング補助員ゲーム</footer>
+</body>
+</html>
